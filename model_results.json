@@ -1,0 +1,443 @@
+{
+    "experiment_time": "2025-03-05 14:10:23",
+    "data_info": {
+        "total_samples": 249,
+        "training_samples": 199,
+        "test_samples": 50,
+        "top_5_authors": {
+            "Võ Nhật Vinh": 72,
+            "Quan Thế Dân": 59,
+            "Trần Văn Phúc": 44,
+            "Lưu Đình Long": 38,
+            "Đặng Hùng Võ": 36
+        }
+    },
+    "models": {
+        "with_stopwords": {
+            "Naive Bayes": 0.4,
+            "SVM": 0.82,
+            "Logistic Regression": 0.68,
+            "Random Forest": 0.74
+        },
+        "without_stopwords": {
+            "Naive Bayes": 0.5,
+            "SVM": 0.78,
+            "Logistic Regression": 0.68,
+            "Random Forest": 0.78
+        },
+        "detailed_metrics": {
+            "with_stopwords": {
+                "Naive Bayes": {
+                    "accuracy": 0.4,
+                    "precision": 0.19200000000000003,
+                    "recall": 0.4,
+                    "f1_score": 0.2593939393939394,
+                    "classification_report": {
+                        "Lưu Đình Long": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1-score": 0.0,
+                            "support": 6.0
+                        },
+                        "Quan Thế Dân": {
+                            "precision": 0.4,
+                            "recall": 0.8,
+                            "f1-score": 0.5333333333333333,
+                            "support": 10.0
+                        },
+                        "Trần Văn Phúc": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1-score": 0.0,
+                            "support": 14.0
+                        },
+                        "Võ Nhật Vinh": {
+                            "precision": 0.4,
+                            "recall": 0.8571428571428571,
+                            "f1-score": 0.5454545454545454,
+                            "support": 14.0
+                        },
+                        "Đặng Hùng Võ": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1-score": 0.0,
+                            "support": 6.0
+                        },
+                        "accuracy": 0.4,
+                        "macro avg": {
+                            "precision": 0.16,
+                            "recall": 0.3314285714285714,
+                            "f1-score": 0.21575757575757573,
+                            "support": 50.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.19200000000000003,
+                            "recall": 0.4,
+                            "f1-score": 0.2593939393939394,
+                            "support": 50.0
+                        }
+                    }
+                },
+                "SVM": {
+                    "accuracy": 0.82,
+                    "precision": 0.8705882352941177,
+                    "recall": 0.82,
+                    "f1_score": 0.8211245696799694,
+                    "classification_report": {
+                        "Lưu Đình Long": {
+                            "precision": 1.0,
+                            "recall": 0.8333333333333334,
+                            "f1-score": 0.9090909090909091,
+                            "support": 6.0
+                        },
+                        "Quan Thế Dân": {
+                            "precision": 0.6,
+                            "recall": 0.9,
+                            "f1-score": 0.72,
+                            "support": 10.0
+                        },
+                        "Trần Văn Phúc": {
+                            "precision": 1.0,
+                            "recall": 0.6428571428571429,
+                            "f1-score": 0.782608695652174,
+                            "support": 14.0
+                        },
+                        "Võ Nhật Vinh": {
+                            "precision": 0.8235294117647058,
+                            "recall": 1.0,
+                            "f1-score": 0.9032258064516129,
+                            "support": 14.0
+                        },
+                        "Đặng Hùng Võ": {
+                            "precision": 1.0,
+                            "recall": 0.6666666666666666,
+                            "f1-score": 0.8,
+                            "support": 6.0
+                        },
+                        "accuracy": 0.82,
+                        "macro avg": {
+                            "precision": 0.8847058823529412,
+                            "recall": 0.8085714285714285,
+                            "f1-score": 0.8229850822389391,
+                            "support": 50.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.8705882352941177,
+                            "recall": 0.82,
+                            "f1-score": 0.8211245696799694,
+                            "support": 50.0
+                        }
+                    }
+                },
+                "Logistic Regression": {
+                    "accuracy": 0.68,
+                    "precision": 0.8018575851393188,
+                    "recall": 0.68,
+                    "f1_score": 0.684209930225503,
+                    "classification_report": {
+                        "Lưu Đình Long": {
+                            "precision": 1.0,
+                            "recall": 0.8333333333333334,
+                            "f1-score": 0.9090909090909091,
+                            "support": 6.0
+                        },
+                        "Quan Thế Dân": {
+                            "precision": 0.42105263157894735,
+                            "recall": 0.8,
+                            "f1-score": 0.5517241379310345,
+                            "support": 10.0
+                        },
+                        "Trần Văn Phúc": {
+                            "precision": 1.0,
+                            "recall": 0.42857142857142855,
+                            "f1-score": 0.6,
+                            "support": 14.0
+                        },
+                        "Võ Nhật Vinh": {
+                            "precision": 0.7058823529411765,
+                            "recall": 0.8571428571428571,
+                            "f1-score": 0.7741935483870968,
+                            "support": 14.0
+                        },
+                        "Đặng Hùng Võ": {
+                            "precision": 1.0,
+                            "recall": 0.5,
+                            "f1-score": 0.6666666666666666,
+                            "support": 6.0
+                        },
+                        "accuracy": 0.68,
+                        "macro avg": {
+                            "precision": 0.8253869969040248,
+                            "recall": 0.6838095238095238,
+                            "f1-score": 0.7003350524151414,
+                            "support": 50.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.8018575851393188,
+                            "recall": 0.68,
+                            "f1-score": 0.684209930225503,
+                            "support": 50.0
+                        }
+                    }
+                },
+                "Random Forest": {
+                    "accuracy": 0.74,
+                    "precision": 0.8226666666666667,
+                    "recall": 0.74,
+                    "f1_score": 0.7382245989304813,
+                    "classification_report": {
+                        "Lưu Đình Long": {
+                            "precision": 1.0,
+                            "recall": 0.6666666666666666,
+                            "f1-score": 0.8,
+                            "support": 6.0
+                        },
+                        "Quan Thế Dân": {
+                            "precision": 0.5333333333333333,
+                            "recall": 0.8,
+                            "f1-score": 0.64,
+                            "support": 10.0
+                        },
+                        "Trần Văn Phúc": {
+                            "precision": 1.0,
+                            "recall": 0.5714285714285714,
+                            "f1-score": 0.7272727272727273,
+                            "support": 14.0
+                        },
+                        "Võ Nhật Vinh": {
+                            "precision": 0.7,
+                            "recall": 1.0,
+                            "f1-score": 0.8235294117647058,
+                            "support": 14.0
+                        },
+                        "Đặng Hùng Võ": {
+                            "precision": 1.0,
+                            "recall": 0.5,
+                            "f1-score": 0.6666666666666666,
+                            "support": 6.0
+                        },
+                        "accuracy": 0.74,
+                        "macro avg": {
+                            "precision": 0.8466666666666667,
+                            "recall": 0.7076190476190476,
+                            "f1-score": 0.7314937611408199,
+                            "support": 50.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.8226666666666667,
+                            "recall": 0.74,
+                            "f1-score": 0.7382245989304813,
+                            "support": 50.0
+                        }
+                    }
+                }
+            },
+            "without_stopwords": {
+                "Naive Bayes": {
+                    "accuracy": 0.5,
+                    "precision": 0.6144,
+                    "recall": 0.5,
+                    "f1_score": 0.4377978883861237,
+                    "classification_report": {
+                        "Lưu Đình Long": {
+                            "precision": 1.0,
+                            "recall": 0.3333333333333333,
+                            "f1-score": 0.5,
+                            "support": 6.0
+                        },
+                        "Quan Thế Dân": {
+                            "precision": 0.4,
+                            "recall": 0.8,
+                            "f1-score": 0.5333333333333333,
+                            "support": 10.0
+                        },
+                        "Trần Văn Phúc": {
+                            "precision": 1.0,
+                            "recall": 0.21428571428571427,
+                            "f1-score": 0.35294117647058826,
+                            "support": 14.0
+                        },
+                        "Võ Nhật Vinh": {
+                            "precision": 0.48,
+                            "recall": 0.8571428571428571,
+                            "f1-score": 0.6153846153846154,
+                            "support": 14.0
+                        },
+                        "Đặng Hùng Võ": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1-score": 0.0,
+                            "support": 6.0
+                        },
+                        "accuracy": 0.5,
+                        "macro avg": {
+                            "precision": 0.576,
+                            "recall": 0.4409523809523809,
+                            "f1-score": 0.40033182503770737,
+                            "support": 50.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.6144,
+                            "recall": 0.5,
+                            "f1-score": 0.4377978883861237,
+                            "support": 50.0
+                        }
+                    }
+                },
+                "SVM": {
+                    "accuracy": 0.78,
+                    "precision": 0.8330882352941177,
+                    "recall": 0.78,
+                    "f1_score": 0.7760920369952627,
+                    "classification_report": {
+                        "Lưu Đình Long": {
+                            "precision": 1.0,
+                            "recall": 0.8333333333333334,
+                            "f1-score": 0.9090909090909091,
+                            "support": 6.0
+                        },
+                        "Quan Thế Dân": {
+                            "precision": 0.5625,
+                            "recall": 0.9,
+                            "f1-score": 0.6923076923076923,
+                            "support": 10.0
+                        },
+                        "Trần Văn Phúc": {
+                            "precision": 1.0,
+                            "recall": 0.5714285714285714,
+                            "f1-score": 0.7272727272727273,
+                            "support": 14.0
+                        },
+                        "Võ Nhật Vinh": {
+                            "precision": 0.8235294117647058,
+                            "recall": 1.0,
+                            "f1-score": 0.9032258064516129,
+                            "support": 14.0
+                        },
+                        "Đặng Hùng Võ": {
+                            "precision": 0.75,
+                            "recall": 0.5,
+                            "f1-score": 0.6,
+                            "support": 6.0
+                        },
+                        "accuracy": 0.78,
+                        "macro avg": {
+                            "precision": 0.8272058823529411,
+                            "recall": 0.7609523809523809,
+                            "f1-score": 0.7663794270245883,
+                            "support": 50.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.8330882352941177,
+                            "recall": 0.78,
+                            "f1-score": 0.7760920369952627,
+                            "support": 50.0
+                        }
+                    }
+                },
+                "Logistic Regression": {
+                    "accuracy": 0.68,
+                    "precision": 0.7955555555555555,
+                    "recall": 0.68,
+                    "f1_score": 0.686952380952381,
+                    "classification_report": {
+                        "Lưu Đình Long": {
+                            "precision": 1.0,
+                            "recall": 0.6666666666666666,
+                            "f1-score": 0.8,
+                            "support": 6.0
+                        },
+                        "Quan Thế Dân": {
+                            "precision": 0.4444444444444444,
+                            "recall": 0.8,
+                            "f1-score": 0.5714285714285714,
+                            "support": 10.0
+                        },
+                        "Trần Văn Phúc": {
+                            "precision": 1.0,
+                            "recall": 0.5,
+                            "f1-score": 0.6666666666666666,
+                            "support": 14.0
+                        },
+                        "Võ Nhật Vinh": {
+                            "precision": 0.6666666666666666,
+                            "recall": 0.8571428571428571,
+                            "f1-score": 0.75,
+                            "support": 14.0
+                        },
+                        "Đặng Hùng Võ": {
+                            "precision": 1.0,
+                            "recall": 0.5,
+                            "f1-score": 0.6666666666666666,
+                            "support": 6.0
+                        },
+                        "accuracy": 0.68,
+                        "macro avg": {
+                            "precision": 0.8222222222222222,
+                            "recall": 0.6647619047619048,
+                            "f1-score": 0.6909523809523809,
+                            "support": 50.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.7955555555555555,
+                            "recall": 0.68,
+                            "f1-score": 0.686952380952381,
+                            "support": 50.0
+                        }
+                    }
+                },
+                "Random Forest": {
+                    "accuracy": 0.78,
+                    "precision": 0.8463157894736842,
+                    "recall": 0.78,
+                    "f1_score": 0.7772121212121212,
+                    "classification_report": {
+                        "Lưu Đình Long": {
+                            "precision": 1.0,
+                            "recall": 0.6666666666666666,
+                            "f1-score": 0.8,
+                            "support": 6.0
+                        },
+                        "Quan Thế Dân": {
+                            "precision": 0.6,
+                            "recall": 0.9,
+                            "f1-score": 0.72,
+                            "support": 10.0
+                        },
+                        "Trần Văn Phúc": {
+                            "precision": 1.0,
+                            "recall": 0.5714285714285714,
+                            "f1-score": 0.7272727272727273,
+                            "support": 14.0
+                        },
+                        "Võ Nhật Vinh": {
+                            "precision": 0.7368421052631579,
+                            "recall": 1.0,
+                            "f1-score": 0.8484848484848485,
+                            "support": 14.0
+                        },
+                        "Đặng Hùng Võ": {
+                            "precision": 1.0,
+                            "recall": 0.6666666666666666,
+                            "f1-score": 0.8,
+                            "support": 6.0
+                        },
+                        "accuracy": 0.78,
+                        "macro avg": {
+                            "precision": 0.8673684210526316,
+                            "recall": 0.7609523809523809,
+                            "f1-score": 0.7791515151515152,
+                            "support": 50.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.8463157894736842,
+                            "recall": 0.78,
+                            "f1-score": 0.7772121212121212,
+                            "support": 50.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

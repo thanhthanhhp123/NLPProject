@@ -1,0 +1,539 @@
+{
+    "experiment_time": "2025-03-05 14:17:13",
+    "data_info": {
+        "total_samples": 1589,
+        "training_samples": 1271,
+        "test_samples": 318,
+        "top_5_categories": {
+            "giao-duc-tri-thuc": 233,
+            "moi-truong": 233,
+            "kinh-doanh-quan-tri": 233,
+            "y-te-suc-khoe": 233,
+            "van-hoa-loi-song": 232
+        }
+    },
+    "models": {
+        "with_stopwords": {
+            "Naive Bayes": 0.5125786163522013,
+            "SVM": 0.5125786163522013,
+            "Logistic Regression": 0.5408805031446541,
+            "Random Forest": 0.4748427672955975
+        },
+        "without_stopwords": {
+            "Naive Bayes": 0.4968553459119497,
+            "SVM": 0.5,
+            "Logistic Regression": 0.5345911949685535,
+            "Random Forest": 0.4779874213836478
+        },
+        "detailed_metrics": {
+            "with_stopwords": {
+                "Naive Bayes": {
+                    "accuracy": 0.5125786163522013,
+                    "precision": 0.4681775639260982,
+                    "recall": 0.5125786163522013,
+                    "f1_score": 0.4589589241513383,
+                    "classification_report": {
+                        "chinh-tri-chinh-sach": {
+                            "precision": 0.6875,
+                            "recall": 0.2619047619047619,
+                            "f1-score": 0.3793103448275862,
+                            "support": 42.0
+                        },
+                        "covid-19": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1-score": 0.0,
+                            "support": 52.0
+                        },
+                        "giao-duc-tri-thuc": {
+                            "precision": 0.5797101449275363,
+                            "recall": 0.8333333333333334,
+                            "f1-score": 0.6837606837606838,
+                            "support": 48.0
+                        },
+                        "kinh-doanh-quan-tri": {
+                            "precision": 0.5409836065573771,
+                            "recall": 0.6875,
+                            "f1-score": 0.6055045871559633,
+                            "support": 48.0
+                        },
+                        "moi-truong": {
+                            "precision": 0.5813953488372093,
+                            "recall": 0.5952380952380952,
+                            "f1-score": 0.5882352941176471,
+                            "support": 42.0
+                        },
+                        "van-hoa-loi-song": {
+                            "precision": 0.6060606060606061,
+                            "recall": 0.4444444444444444,
+                            "f1-score": 0.5128205128205128,
+                            "support": 45.0
+                        },
+                        "y-te-suc-khoe": {
+                            "precision": 0.3541666666666667,
+                            "recall": 0.8292682926829268,
+                            "f1-score": 0.49635036496350365,
+                            "support": 41.0
+                        },
+                        "accuracy": 0.5125786163522013,
+                        "macro avg": {
+                            "precision": 0.4785451961499136,
+                            "recall": 0.5216698468005089,
+                            "f1-score": 0.46656882680655665,
+                            "support": 318.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.4681775639260982,
+                            "recall": 0.5125786163522013,
+                            "f1-score": 0.4589589241513383,
+                            "support": 318.0
+                        }
+                    }
+                },
+                "SVM": {
+                    "accuracy": 0.5125786163522013,
+                    "precision": 0.5092661964941354,
+                    "recall": 0.5125786163522013,
+                    "f1_score": 0.5016013315471342,
+                    "classification_report": {
+                        "chinh-tri-chinh-sach": {
+                            "precision": 0.6,
+                            "recall": 0.35714285714285715,
+                            "f1-score": 0.44776119402985076,
+                            "support": 42.0
+                        },
+                        "covid-19": {
+                            "precision": 0.29411764705882354,
+                            "recall": 0.19230769230769232,
+                            "f1-score": 0.23255813953488372,
+                            "support": 52.0
+                        },
+                        "giao-duc-tri-thuc": {
+                            "precision": 0.6166666666666667,
+                            "recall": 0.7708333333333334,
+                            "f1-score": 0.6851851851851852,
+                            "support": 48.0
+                        },
+                        "kinh-doanh-quan-tri": {
+                            "precision": 0.559322033898305,
+                            "recall": 0.6875,
+                            "f1-score": 0.616822429906542,
+                            "support": 48.0
+                        },
+                        "moi-truong": {
+                            "precision": 0.6756756756756757,
+                            "recall": 0.5952380952380952,
+                            "f1-score": 0.6329113924050633,
+                            "support": 42.0
+                        },
+                        "van-hoa-loi-song": {
+                            "precision": 0.5686274509803921,
+                            "recall": 0.6444444444444445,
+                            "f1-score": 0.6041666666666666,
+                            "support": 45.0
+                        },
+                        "y-te-suc-khoe": {
+                            "precision": 0.2692307692307692,
+                            "recall": 0.34146341463414637,
+                            "f1-score": 0.3010752688172043,
+                            "support": 41.0
+                        },
+                        "accuracy": 0.5125786163522013,
+                        "macro avg": {
+                            "precision": 0.5119486062158046,
+                            "recall": 0.5127042624429384,
+                            "f1-score": 0.5029257537921995,
+                            "support": 318.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.5092661964941354,
+                            "recall": 0.5125786163522013,
+                            "f1-score": 0.5016013315471342,
+                            "support": 318.0
+                        }
+                    }
+                },
+                "Logistic Regression": {
+                    "accuracy": 0.5408805031446541,
+                    "precision": 0.5264371669961808,
+                    "recall": 0.5408805031446541,
+                    "f1_score": 0.5253440247065359,
+                    "classification_report": {
+                        "chinh-tri-chinh-sach": {
+                            "precision": 0.5862068965517241,
+                            "recall": 0.40476190476190477,
+                            "f1-score": 0.4788732394366197,
+                            "support": 42.0
+                        },
+                        "covid-19": {
+                            "precision": 0.34375,
+                            "recall": 0.21153846153846154,
+                            "f1-score": 0.2619047619047619,
+                            "support": 52.0
+                        },
+                        "giao-duc-tri-thuc": {
+                            "precision": 0.6333333333333333,
+                            "recall": 0.7916666666666666,
+                            "f1-score": 0.7037037037037037,
+                            "support": 48.0
+                        },
+                        "kinh-doanh-quan-tri": {
+                            "precision": 0.5645161290322581,
+                            "recall": 0.7291666666666666,
+                            "f1-score": 0.6363636363636364,
+                            "support": 48.0
+                        },
+                        "moi-truong": {
+                            "precision": 0.65,
+                            "recall": 0.6190476190476191,
+                            "f1-score": 0.6341463414634146,
+                            "support": 42.0
+                        },
+                        "van-hoa-loi-song": {
+                            "precision": 0.5660377358490566,
+                            "recall": 0.6666666666666666,
+                            "f1-score": 0.6122448979591837,
+                            "support": 45.0
+                        },
+                        "y-te-suc-khoe": {
+                            "precision": 0.35714285714285715,
+                            "recall": 0.36585365853658536,
+                            "f1-score": 0.3614457831325301,
+                            "support": 41.0
+                        },
+                        "accuracy": 0.5408805031446541,
+                        "macro avg": {
+                            "precision": 0.5287124217013185,
+                            "recall": 0.5412430919835101,
+                            "f1-score": 0.5269546234234072,
+                            "support": 318.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.5264371669961808,
+                            "recall": 0.5408805031446541,
+                            "f1-score": 0.5253440247065359,
+                            "support": 318.0
+                        }
+                    }
+                },
+                "Random Forest": {
+                    "accuracy": 0.4748427672955975,
+                    "precision": 0.4589979387981608,
+                    "recall": 0.4748427672955975,
+                    "f1_score": 0.456545945471294,
+                    "classification_report": {
+                        "chinh-tri-chinh-sach": {
+                            "precision": 0.47619047619047616,
+                            "recall": 0.23809523809523808,
+                            "f1-score": 0.31746031746031744,
+                            "support": 42.0
+                        },
+                        "covid-19": {
+                            "precision": 0.25,
+                            "recall": 0.15384615384615385,
+                            "f1-score": 0.19047619047619047,
+                            "support": 52.0
+                        },
+                        "giao-duc-tri-thuc": {
+                            "precision": 0.5833333333333334,
+                            "recall": 0.7291666666666666,
+                            "f1-score": 0.6481481481481481,
+                            "support": 48.0
+                        },
+                        "kinh-doanh-quan-tri": {
+                            "precision": 0.5333333333333333,
+                            "recall": 0.6666666666666666,
+                            "f1-score": 0.5925925925925926,
+                            "support": 48.0
+                        },
+                        "moi-truong": {
+                            "precision": 0.6122448979591837,
+                            "recall": 0.7142857142857143,
+                            "f1-score": 0.6593406593406593,
+                            "support": 42.0
+                        },
+                        "van-hoa-loi-song": {
+                            "precision": 0.5333333333333333,
+                            "recall": 0.5333333333333333,
+                            "f1-score": 0.5333333333333333,
+                            "support": 45.0
+                        },
+                        "y-te-suc-khoe": {
+                            "precision": 0.23529411764705882,
+                            "recall": 0.2926829268292683,
+                            "f1-score": 0.2608695652173913,
+                            "support": 41.0
+                        },
+                        "accuracy": 0.4748427672955975,
+                        "macro avg": {
+                            "precision": 0.4605327845423884,
+                            "recall": 0.475439528531863,
+                            "f1-score": 0.45746011522409036,
+                            "support": 318.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.4589979387981608,
+                            "recall": 0.4748427672955975,
+                            "f1-score": 0.456545945471294,
+                            "support": 318.0
+                        }
+                    }
+                }
+            },
+            "without_stopwords": {
+                "Naive Bayes": {
+                    "accuracy": 0.4968553459119497,
+                    "precision": 0.44894170678589396,
+                    "recall": 0.4968553459119497,
+                    "f1_score": 0.4534513042262254,
+                    "classification_report": {
+                        "chinh-tri-chinh-sach": {
+                            "precision": 0.6,
+                            "recall": 0.2857142857142857,
+                            "f1-score": 0.3870967741935484,
+                            "support": 42.0
+                        },
+                        "covid-19": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "f1-score": 0.0,
+                            "support": 52.0
+                        },
+                        "giao-duc-tri-thuc": {
+                            "precision": 0.609375,
+                            "recall": 0.8125,
+                            "f1-score": 0.6964285714285714,
+                            "support": 48.0
+                        },
+                        "kinh-doanh-quan-tri": {
+                            "precision": 0.5230769230769231,
+                            "recall": 0.7083333333333334,
+                            "f1-score": 0.6017699115044248,
+                            "support": 48.0
+                        },
+                        "moi-truong": {
+                            "precision": 0.5952380952380952,
+                            "recall": 0.5952380952380952,
+                            "f1-score": 0.5952380952380952,
+                            "support": 42.0
+                        },
+                        "van-hoa-loi-song": {
+                            "precision": 0.5526315789473685,
+                            "recall": 0.4666666666666667,
+                            "f1-score": 0.5060240963855421,
+                            "support": 45.0
+                        },
+                        "y-te-suc-khoe": {
+                            "precision": 0.3253012048192771,
+                            "recall": 0.6585365853658537,
+                            "f1-score": 0.43548387096774194,
+                            "support": 41.0
+                        },
+                        "accuracy": 0.4968553459119497,
+                        "macro avg": {
+                            "precision": 0.45794611458309487,
+                            "recall": 0.5038555666168907,
+                            "f1-score": 0.46029161710256056,
+                            "support": 318.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.44894170678589396,
+                            "recall": 0.4968553459119497,
+                            "f1-score": 0.4534513042262254,
+                            "support": 318.0
+                        }
+                    }
+                },
+                "SVM": {
+                    "accuracy": 0.5,
+                    "precision": 0.4903986715659401,
+                    "recall": 0.5,
+                    "f1_score": 0.48764072895461574,
+                    "classification_report": {
+                        "chinh-tri-chinh-sach": {
+                            "precision": 0.5,
+                            "recall": 0.3333333333333333,
+                            "f1-score": 0.4,
+                            "support": 42.0
+                        },
+                        "covid-19": {
+                            "precision": 0.2647058823529412,
+                            "recall": 0.17307692307692307,
+                            "f1-score": 0.20930232558139536,
+                            "support": 52.0
+                        },
+                        "giao-duc-tri-thuc": {
+                            "precision": 0.6166666666666667,
+                            "recall": 0.7708333333333334,
+                            "f1-score": 0.6851851851851852,
+                            "support": 48.0
+                        },
+                        "kinh-doanh-quan-tri": {
+                            "precision": 0.5483870967741935,
+                            "recall": 0.7083333333333334,
+                            "f1-score": 0.6181818181818182,
+                            "support": 48.0
+                        },
+                        "moi-truong": {
+                            "precision": 0.6666666666666666,
+                            "recall": 0.5714285714285714,
+                            "f1-score": 0.6153846153846154,
+                            "support": 42.0
+                        },
+                        "van-hoa-loi-song": {
+                            "precision": 0.5957446808510638,
+                            "recall": 0.6222222222222222,
+                            "f1-score": 0.6086956521739131,
+                            "support": 45.0
+                        },
+                        "y-te-suc-khoe": {
+                            "precision": 0.2549019607843137,
+                            "recall": 0.3170731707317073,
+                            "f1-score": 0.2826086956521739,
+                            "support": 41.0
+                        },
+                        "accuracy": 0.5,
+                        "macro avg": {
+                            "precision": 0.4924389934422636,
+                            "recall": 0.4994715553513463,
+                            "f1-score": 0.48847975602272875,
+                            "support": 318.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.4903986715659401,
+                            "recall": 0.5,
+                            "f1-score": 0.48764072895461574,
+                            "support": 318.0
+                        }
+                    }
+                },
+                "Logistic Regression": {
+                    "accuracy": 0.5345911949685535,
+                    "precision": 0.5169797445247275,
+                    "recall": 0.5345911949685535,
+                    "f1_score": 0.5190182402671593,
+                    "classification_report": {
+                        "chinh-tri-chinh-sach": {
+                            "precision": 0.5454545454545454,
+                            "recall": 0.42857142857142855,
+                            "f1-score": 0.48,
+                            "support": 42.0
+                        },
+                        "covid-19": {
+                            "precision": 0.3225806451612903,
+                            "recall": 0.19230769230769232,
+                            "f1-score": 0.24096385542168675,
+                            "support": 52.0
+                        },
+                        "giao-duc-tri-thuc": {
+                            "precision": 0.6271186440677966,
+                            "recall": 0.7708333333333334,
+                            "f1-score": 0.6915887850467289,
+                            "support": 48.0
+                        },
+                        "kinh-doanh-quan-tri": {
+                            "precision": 0.5862068965517241,
+                            "recall": 0.7083333333333334,
+                            "f1-score": 0.6415094339622641,
+                            "support": 48.0
+                        },
+                        "moi-truong": {
+                            "precision": 0.6410256410256411,
+                            "recall": 0.5952380952380952,
+                            "f1-score": 0.6172839506172839,
+                            "support": 42.0
+                        },
+                        "van-hoa-loi-song": {
+                            "precision": 0.5535714285714286,
+                            "recall": 0.6888888888888889,
+                            "f1-score": 0.6138613861386139,
+                            "support": 45.0
+                        },
+                        "y-te-suc-khoe": {
+                            "precision": 0.35714285714285715,
+                            "recall": 0.36585365853658536,
+                            "f1-score": 0.3614457831325301,
+                            "support": 41.0
+                        },
+                        "accuracy": 0.5345911949685535,
+                        "macro avg": {
+                            "precision": 0.5190143797107548,
+                            "recall": 0.5357180614584797,
+                            "f1-score": 0.5209504563313011,
+                            "support": 318.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.5169797445247275,
+                            "recall": 0.5345911949685535,
+                            "f1-score": 0.5190182402671593,
+                            "support": 318.0
+                        }
+                    }
+                },
+                "Random Forest": {
+                    "accuracy": 0.4779874213836478,
+                    "precision": 0.4685995369137289,
+                    "recall": 0.4779874213836478,
+                    "f1_score": 0.46431604836867013,
+                    "classification_report": {
+                        "chinh-tri-chinh-sach": {
+                            "precision": 0.45454545454545453,
+                            "recall": 0.23809523809523808,
+                            "f1-score": 0.3125,
+                            "support": 42.0
+                        },
+                        "covid-19": {
+                            "precision": 0.2727272727272727,
+                            "recall": 0.17307692307692307,
+                            "f1-score": 0.21176470588235294,
+                            "support": 52.0
+                        },
+                        "giao-duc-tri-thuc": {
+                            "precision": 0.6428571428571429,
+                            "recall": 0.75,
+                            "f1-score": 0.6923076923076923,
+                            "support": 48.0
+                        },
+                        "kinh-doanh-quan-tri": {
+                            "precision": 0.5,
+                            "recall": 0.625,
+                            "f1-score": 0.5555555555555556,
+                            "support": 48.0
+                        },
+                        "moi-truong": {
+                            "precision": 0.6,
+                            "recall": 0.6428571428571429,
+                            "f1-score": 0.6206896551724138,
+                            "support": 42.0
+                        },
+                        "van-hoa-loi-song": {
+                            "precision": 0.5652173913043478,
+                            "recall": 0.5777777777777777,
+                            "f1-score": 0.5714285714285714,
+                            "support": 45.0
+                        },
+                        "y-te-suc-khoe": {
+                            "precision": 0.25,
+                            "recall": 0.34146341463414637,
+                            "f1-score": 0.28865979381443296,
+                            "support": 41.0
+                        },
+                        "accuracy": 0.4779874213836478,
+                        "macro avg": {
+                            "precision": 0.46933532306203113,
+                            "recall": 0.4783243566344611,
+                            "f1-score": 0.4647008534515741,
+                            "support": 318.0
+                        },
+                        "weighted avg": {
+                            "precision": 0.4685995369137289,
+                            "recall": 0.4779874213836478,
+                            "f1-score": 0.46431604836867013,
+                            "support": 318.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
