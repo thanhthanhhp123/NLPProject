@@ -1,0 +1,3 @@
+Model,Author Accuracy,Author F1,Category Accuracy,Category F1,Best Author F1,Best Category F1
+enhanced_bilstm,0.7722,0.7776,0.5190,0.5286,0.7776,0.5295
+phobert,0.6962,0.6796,0.5823,0.5783,0.7087,0.6213
